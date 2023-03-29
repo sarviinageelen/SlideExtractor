@@ -28,17 +28,22 @@ pip install opencv-python tqdm
 ```python
 video_path = '/path/to/your/video.mp4'
 output_folder = '/path/to/output/folder'
+```
 
 Replace /path/to/your/video.mp4 with the path to your video file and /path/to/output/folder with the path to the folder where you want to save the extracted slides.
 
 2. Adjust the threshold variable to fine-tune the slide detection sensitivity if needed:
 
+```python
 threshold = 50  # You can adjust this value for better results
+```
 
 A higher threshold value will make the script less sensitive to changes between frames, while a lower value will make it more sensitive. Experiment with different values to find the optimal threshold for your video.
 
 3. Run the script:
 
+```python
 python slide_extractor.py
+```
 
 The script will process the video and save the extracted slides as image files in the specified output folder.
