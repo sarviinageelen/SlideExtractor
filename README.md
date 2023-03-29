@@ -18,8 +18,9 @@ SlideExtractor is a tool designed to help users extract keyframes (presentation 
 2. Clone the SlideExtractor repository or download it as a zip file and extract it.
 3. Install the required libraries using pip:
 
+```python
 pip install opencv-python tqdm
-
+```
 
 ## Usage
 
